@@ -121,8 +121,8 @@ new_git_repository(
 new_git_repository(
     name = "mbedtls",
     build_file = "//src/rp2_common/pico_mbedtls:mbedtls.BUILD",
-    commit = "107ea89daaefb9867ea9121002fbbdf926780e98",  # keep-in-sync-with-submodule: lib/mbedtls
-    remote = "https://github.com/Mbed-TLS/mbedtls.git",
+    commit = "e185d7fd85499c8ce5ca2a54f5cf8fe7dbe3f8df",  # keep-in-sync-with-submodule: lib/mbedtls
+    remote = "https://github.com/aleytus/mbedtls.git",
 )
 
 register_toolchains(
